@@ -9,7 +9,7 @@ O projeto foi desenvolvido com foco em **boas práticas**, **arquitetura simples
 ## 🌐 Aplicação Online
 
 - **Frontend (React):**  
-  👉 https://SEU-FRONT.onrender.com
+  👉 https://megasena-web.onrender.com/
 
 - **Backend (API):**  
   👉 https://megasena-api-9sjc.onrender.com
