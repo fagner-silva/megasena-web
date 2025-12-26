@@ -62,10 +62,6 @@ export function Games() {
           <div className="h1">Meus Jogos</div>
           <div className="muted">{msg}</div>
         </div>
-
-        <button className="btn secondary" onClick={load}>
-          Atualizar
-        </button>
       </div>
 
       <div className="spacer" />
@@ -102,23 +98,7 @@ export function Games() {
 
       <div className="spacer" />
 
-      {/* ✅ Distribuição por dezenas */}
-      <div className="card">
-        <div style={{ fontWeight: 900 }}>Distribuição por dezenas</div>
-        <div className="muted" style={{ fontSize: 12 }}>
-          Quantos jogos você tem com 6, 7, 8... até 20 dezenas
-        </div>
-
-        <div className="spacer" />
-
-        <div className="row" style={{ gap: 8 }}>
-          {Object.entries(stats.byDozens).map(([dozens, count]) => (
-            <span key={dozens} className="badge" title={`${count} jogo(s) com ${dozens} dezenas`}>
-              {dozens}D: {count}
-            </span>
-          ))}
-        </div>
-      </div>
+      
 
       <div className="spacer" />
 
